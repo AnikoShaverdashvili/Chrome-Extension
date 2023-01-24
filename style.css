@@ -5,12 +5,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -67,4 +62,7 @@ header {
   font-weight: 500;
   text-transform: uppercase;
   font-weight: bold;
+}
+.hide {
+  display: none;
 }
